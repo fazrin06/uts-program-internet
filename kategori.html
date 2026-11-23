@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kategori produk Fazrin Sembako.">
+    <meta name="theme-color" content="#111111">
+    <title>Kategori - Fazrin Sembako</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=ba447446">
+</head>
+<body>
+
+<!-- ============ HEADER & MENU ============ -->
+<header id="fazrin_header">
+    <div class="fazrin_header_inner">
+        <a class="fazrin_logo" href="index.html">
+            <span class="fazrin_logo_dot"></span>
+            <span>Fazrin<b>Sembako</b></span>
+        </a>
+
+        <nav id="fazrin_menu" class="fazrin_menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">Tentang</a>
+            <a href="produk.html">Produk</a>
+            <a href="kategori.html" class="fazrin_active" aria-current="page">Kategori</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+
+        <div class="fazrin_header_actions">
+            <button id="fazrin_cart_open" class="fazrin_cart_btn" type="button" aria-label="Buka keranjang">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM5.2 4l.4 2H20a1 1 0 0 1 1 1.2l-1.4 7a2 2 0 0 1-2 1.6H8.1a2 2 0 0 1-2-1.6L4.3 3.4A1 1 0 0 0 3.3 2.6H2V.6h1.3a3 3 0 0 1 2.9 2.4Z"/></svg>
+                <span class="fazrin_cart_badge" data-fazrin-cart-count>0</span>
+            </button>
+            <button id="fazrin_menu_toggle" class="fazrin_menu_toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="fazrin_banner">
+        <div class="fazrin_banner_inner">
+            <div class="fazrin_banner_text">
+                <nav class="fazrin_breadcrumb fazrin_reveal"><a href="index.html">Home</a> <span>/</span> Kategori</nav>
+                <h1 class="fazrin_reveal" style="--fazrin_delay:.08s">Kategori Produk</h1>
+                <p class="fazrin_reveal" style="--fazrin_delay:.16s">Pilih kategori untuk melihat produk di dalamnya.</p>
+            </div>
+            <div class="fazrin_banner_media fazrin_reveal" style="--fazrin_delay:.2s">
+                <img src="images/mi.jpg?v=f2dd789c" alt="" width="600" height="420">
+            </div>
+        </div>
+    </section>
+
+    <div class="fazrin_container">
+        <div class="fazrin_kategori_grid">
+            <a class="fazrin_kategori_card fazrin_reveal" style="--fazrin_delay:0.00s" href="produk.html?kategori=pokok">
+                <img src="images/beras.jpg?v=9d25f330" alt="Bahan Pokok" width="400" height="500" loading="lazy">
+                <div class="fazrin_kategori_body">
+                    <span class="fazrin_count">04 produk</span>
+                    <h3>Bahan Pokok</h3>
+                    <p>Beras, minyak goreng, gula, dan tepung.</p>
+                </div>
+                <span class="fazrin_kategori_arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="fazrin_kategori_card fazrin_reveal" style="--fazrin_delay:0.08s" href="produk.html?kategori=makanan">
+                <img src="images/telur.jpg?v=f1721203" alt="Bahan Makanan" width="400" height="500" loading="lazy">
+                <div class="fazrin_kategori_body">
+                    <span class="fazrin_count">02 produk</span>
+                    <h3>Bahan Makanan</h3>
+                    <p>Telur ayam dan mi instan.</p>
+                </div>
+                <span class="fazrin_kategori_arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="fazrin_kategori_card fazrin_reveal" style="--fazrin_delay:0.16s" href="produk.html?kategori=minuman">
+                <img src="images/kopi-gantung.jpg?v=8a05015a" alt="Minuman" width="400" height="500" loading="lazy">
+                <div class="fazrin_kategori_body">
+                    <span class="fazrin_count">04 produk</span>
+                    <h3>Minuman</h3>
+                    <p>Kopi bubuk, kopi sachet, Teajus, Finto, dan teh celup.</p>
+                </div>
+                <span class="fazrin_kategori_arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="fazrin_kategori_card fazrin_reveal" style="--fazrin_delay:0.24s" href="produk.html?kategori=rumah">
+                <img src="images/deterjen.jpg?v=0cb2c807" alt="Kebutuhan Rumah" width="400" height="500" loading="lazy">
+                <div class="fazrin_kategori_body">
+                    <span class="fazrin_count">02 produk</span>
+                    <h3>Kebutuhan Rumah</h3>
+                    <p>Sabun mandi dan deterjen.</p>
+                </div>
+                <span class="fazrin_kategori_arrow" aria-hidden="true">↗</span>
+            </a>
+        </div>
+        <section class="fazrin_section">
+            <div class="fazrin_head fazrin_reveal">
+                <div>
+                    <span class="fazrin_eyebrow">Cara Belanja</span>
+                    <h2>Belanja dalam 4 langkah mudah</h2>
+                    
+                </div>
+                
+            </div>
+            <ol class="fazrin_steps">
+                <li class="fazrin_reveal"><span>01</span><h3>Pilih produk</h3><p>Tekan <b>+ Keranjang</b> pada produk yang dibutuhkan.</p></li>
+                <li class="fazrin_reveal" style="--fazrin_delay:.08s"><span>02</span><h3>Cek keranjang</h3><p>Atur jumlah barang lewat ikon keranjang di pojok atas.</p></li>
+                <li class="fazrin_reveal" style="--fazrin_delay:.16s"><span>03</span><h3>Isi data</h3><p>Tulis nama dan pilih ambil di toko atau diantar.</p></li>
+                <li class="fazrin_reveal" style="--fazrin_delay:.24s"><span>04</span><h3>Kirim ke WhatsApp</h3><p>Pesanan lengkap dengan total harga langsung terkirim.</p></li>
+            </ol>
+        </section>
+    </div>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="fazrin_footer">
+    <div class="fazrin_footer_grid">
+        <div class="fazrin_footer_brand">
+            <a class="fazrin_logo" href="index.html"><span class="fazrin_logo_dot"></span><span>Fazrin<b>Sembako</b></span></a>
+            <p>Toko kebutuhan harian lengkap &amp; hemat di Cihaurbeuti, Ciamis. Pesan lewat keranjang, kirim ke WhatsApp.</p>
+        </div>
+        <div>
+            <h4>Menu</h4>
+            <a href="produk.html">Produk</a>
+            <a href="kategori.html">Kategori</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="contact.html">Kontak</a>
+        </div>
+        <div>
+            <h4>Kontak</h4>
+            <p>Jl. Raya Sukamulya, Cihaurbeuti Ciamis</p>
+            <p>0853-1567-3381</p>
+        </div>
+        <div>
+            <h4>Jam Buka</h4>
+            <p>Senin – Sabtu: 07.00 – 21.00</p>
+            <p>Minggu: 08.00 – 17.00</p>
+        </div>
+    </div>
+    <div class="fazrin_copyright">
+        <p>&copy; 2026 Fazrin Sembako. Semua Hak Dilindungi.</p>
+        <a href="#fazrin_header">Kembali ke atas ↑</a>
+    </div>
+</footer>
+
+<!-- ============ KERANJANG BELANJA ============ -->
+<div id="fazrin_overlay" class="fazrin_overlay" hidden></div>
+<aside id="fazrin_cart" class="fazrin_cart" aria-label="Keranjang belanja" aria-hidden="true">
+    <div class="fazrin_cart_head">
+        <h2>Keranjang</h2>
+        <button id="fazrin_cart_close" class="fazrin_cart_close" type="button" aria-label="Tutup keranjang">✕</button>
+    </div>
+
+    <div class="fazrin_cart_scroll">
+        <ul id="fazrin_cart_list" class="fazrin_cart_list"></ul>
+
+        <div id="fazrin_cart_empty" class="fazrin_cart_empty">
+            <p>Keranjang masih kosong.</p>
+            <a class="fazrin_button fazrin_button_small" href="produk.html">Mulai Belanja</a>
+        </div>
+
+        <form id="fazrin_order_form" class="fazrin_order_form" novalidate>
+            <h3>Data Pemesan</h3>
+            <label for="fazrin_order_nama">Nama</label>
+            <input type="text" id="fazrin_order_nama" placeholder="Nama lengkap" autocomplete="name">
+
+            <label for="fazrin_order_metode">Pengambilan</label>
+            <select id="fazrin_order_metode">
+                <option value="Ambil di toko">Ambil di toko</option>
+                <option value="Diantar ke rumah">Diantar ke rumah</option>
+            </select>
+
+            <div id="fazrin_alamat_wrap" class="fazrin_alamat_wrap" hidden>
+                <label for="fazrin_order_alamat">Alamat lengkap</label>
+                <textarea id="fazrin_order_alamat" rows="2" placeholder="Jalan, RT/RW, kelurahan"></textarea>
+            </div>
+
+            <label for="fazrin_order_catatan">Catatan <small>(opsional)</small></label>
+            <input type="text" id="fazrin_order_catatan" placeholder="Misal: beras merek apa saja">
+            <p id="fazrin_order_error" class="fazrin_error" role="alert"></p>
+        </form>
+    </div>
+
+    <div class="fazrin_cart_foot">
+        <div class="fazrin_cart_total">
+            <span>Total (<b data-fazrin-cart-count>0</b> barang)</span>
+            <strong id="fazrin_cart_total">Rp0</strong>
+        </div>
+        <button id="fazrin_order_wa" class="fazrin_button fazrin_button_wa" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3Z"/></svg>
+            Pesan via WhatsApp
+        </button>
+    </div>
+</aside>
+
+<button id="fazrin_to_top" class="fazrin_to_top" type="button" aria-label="Kembali ke atas">↑</button>
+<div id="fazrin_toast" class="fazrin_toast" role="status" aria-live="polite"></div>
+
+<script src="js/script.js?v=6bd0f8b3"></script>
+</body>
+</html>
